@@ -5,7 +5,7 @@ const shouldAttemptRefresh = (url) => !url.startsWith('/auth');
 
 
 const baseQuery = fetchBaseQuery({
-    baseUrl: 'https://technotes-api.onrender.com',
+    baseUrl: 'https://technotes-api-qgcr.onrender.com/',
     credentials: 'include', //that way we wil allway send our cookie
     prepareHeaders: (headers, { getState, endpoint, type }) => {
 
