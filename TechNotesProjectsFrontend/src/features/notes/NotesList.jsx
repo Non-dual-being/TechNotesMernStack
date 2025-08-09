@@ -2,6 +2,7 @@ import { useGetNotesQuery } from "./notesApiSlice";
 import { useGetUsersQuery } from "../users/usersApiSlice";
 import Note from "./Note";
 import useAuth from "../../hooks/useAuth";
+import PulseLoader from 'react-spinners/PulseLoader'
 
 
 const NotesList = () => {
